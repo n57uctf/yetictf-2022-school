@@ -2,7 +2,7 @@ __Category__:
 * Crypto
 
 __Name__:
-* XOR?
+* long password
 
 __Author__: 
 * @Larr1

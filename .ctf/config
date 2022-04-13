@@ -1,0 +1,11 @@
+[config]
+url = https://yetictf.nstu.ru/ctf/
+access_token = 
+
+[challenges]
+reverse/warmup = reverse/warmup
+reverse/mosaic = reverse/mosaic
+crypto/long_password = crypto/long_password
+crypto/numbers = crypto/numbers
+forensics/vnc = forensics/vnc
+forensics/dc = forensics/dc

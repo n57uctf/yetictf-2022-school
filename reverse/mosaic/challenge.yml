@@ -1,0 +1,25 @@
+name: "Mosaic"
+
+author: "@K001rch"
+
+category: reverse
+
+description: "[@K001rch](https://t.me/K001rch)<br><br>Кусочки у тебя есть, осталось разложить их в правильном порядке"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+files:
+    - files/child1
+    - files/child2
+    - files/main
+
+flags:
+    - YetiCTF{G00d_j0b_ch1ld}
+
+version: "0.1"

@@ -1,0 +1,23 @@
+name: "Warmup"
+
+author: "YetiCTF partners"
+
+category: reverse
+
+description: "[@bigger777](https://t.me/bigger777)<br><br>Разминаем тулкит реверсера"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+files:
+    - files/pmanager
+
+flags:
+    - YetiCTF{d3bug3r_1s_my_b3st_fr13end}
+
+version: "0.1"

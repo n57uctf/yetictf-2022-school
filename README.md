@@ -1,2 +1,7 @@
-# yetictf-2022-school
-yetictf 2022 school 
+# YetiCTF 2022 Quals
+
+## Deploy
+```bash
+ctf challenge install
+docker-compose up -d
+```

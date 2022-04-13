@@ -1,0 +1,39 @@
+name: "DC"
+
+author: "@leitosama"
+
+category: forensics
+
+description: "[@leitosama](https://t.me/leitosama)<br><br>Наш контроллер домена был скомпрометирован с помощью какой-то известной уязвимости...<br>Формат флага: YetiCTF{vulnerability-name}<br>[1drv Mirror](https://1drv.ms/u/s!AgTgqaR6Te1gzgKNco-mnmi895h3?e=5YUNoj)"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+files:
+    - files/2022-04-13T155335_DC_20220413T155335.zip
+    - files/attack.pcapng
+
+flags:
+    - "YetiCTF{2020-1472}"
+    - "YetiCTF{2020_1472}"
+    - {
+        type: "static",
+        content: "YetiCTF{zerologon}",
+        data: "case_insensitive",
+    }
+    - {
+        type: "static",
+        content: "YetiCTF{CVE-2020-1472}",
+        data: "case_insensitive",
+    }
+    - {
+        type: "static",
+        content: "YetiCTF{CVE_2020_1472}",
+        data: "case_insensitive",
+    }
+version: "0.1"

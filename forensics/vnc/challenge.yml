@@ -1,0 +1,23 @@
+name: "VNC"
+
+author: "@leitosama"
+
+category: forensics
+
+description: "[@leitosama](https://t.me/leitosama)<br><br>На одном из наших АРМ нашли подозрительный файл с временем создания 1 апреля 2022 в 01:23. IT скинули логи подключений по VNC, но мы не знаем где и как искать концы<br>Ну ты же узнаешь всё одной командой, верно?<br>Формат: YetiCTF{filename_address}<br>[1drv Mirror](https://1drv.ms/u/s!AgTgqaR6Te1gzkh-NfjRIGBch_d1?e=AgBa1d)"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+files:
+    - files/vnc.zip
+
+flags:
+    - YetiCTF{44-031404.log_94.242.253.13}
+
+version: "0.1"

@@ -1,0 +1,23 @@
+name: "Numbers"
+
+author: "@Larr1"
+
+category: crypto
+
+description: "[@Larr1](https://t.me/Larr1)<br><br>где то в цифрах должен быть ключ, мой маленький любитель <b>неравенств</b>"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+files:
+    - files/numbers
+
+flags:
+    - YetiCTF{have_a_glass_jaw}
+
+version: "0.1"

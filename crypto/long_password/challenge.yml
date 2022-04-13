@@ -1,0 +1,23 @@
+name: "long password"
+
+author: "@Larr1"
+
+category: crypto
+
+description: "[@Larr1](https://t.me/Larr1)<br><br>Я зашифровал свой пароль, но не знаю как его расшифровать. Сможешь расшифровать его, в долгу не останусь? "
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+files:
+    - files/main.py
+
+flags:
+    - YetiCTF{c0me_in_h4ndy}
+
+version: "0.1"

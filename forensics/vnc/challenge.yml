@@ -4,7 +4,7 @@ author: "@leitosama"
 
 category: forensics
 
-description: "[@leitosama](https://t.me/leitosama)<br><br>На одном из наших АРМ нашли подозрительный файл с временем создания 1 апреля 2022 в 01:23. IT скинули логи подключений по VNC, но мы не знаем где и как искать концы<br>Ну ты же узнаешь всё одной командой, верно?<br>Формат: YetiCTF{filename_address}<br>[1drv Mirror](https://1drv.ms/u/s!AgTgqaR6Te1gzkh-NfjRIGBch_d1?e=AgBa1d)"
+description: "[@leitosama](https://t.me/leitosama)<br><br>One of our PC have been breached throught VNC, but we don't know PC name.  IT gave all of VNC logs for us to investigate and identify IOCs.<br>Timestamp of attack: 04/01/2022 1:35 AM<br>Format: YetiCTF{filename_address}<br>[1drv Mirror](https://1drv.ms/u/s!AgTgqaR6Te1gzkh-NfjRIGBch_d1?e=AgBa1d)"
 
 value: 100
 type: dynamic

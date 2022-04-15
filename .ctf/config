@@ -1,6 +1,6 @@
 [config]
-url = https://yetictf.nstu.ru/ctf/
-access_token = 
+url = http://yetictf.nstu.ru:8000/
+access_token = d4a83c2441542d2420c5862296639be98458210177953f28c9d5775b226ea558
 
 [challenges]
 reverse/warmup = reverse/warmup
@@ -9,3 +9,9 @@ crypto/long_password = crypto/long_password
 crypto/numbers = crypto/numbers
 forensics/vnc = forensics/vnc
 forensics/dc = forensics/dc
+OSINT/MargoCameBack = OSINT/MargoCameBack
+OSINT/RussianAd = OSINT/RussianAd
+ppc/roguelike = ppc/roguelike
+steganography/MatrixCODE = steganography/MatrixCODE
+web/kazino = web/kazino
+web/circus = web/circus

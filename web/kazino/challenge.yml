@@ -1,0 +1,22 @@
+name: "3x3_3 kazino"
+
+author: "@exe_cute3"
+
+category: web
+
+description: "[@exe_cut3](https://t.me/exe_cut3)<br><br>Добро пожаловать в наше казино! Время покрутить рулетку :)"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+connection_info: http://yetictf.nstu.ru:8087
+
+flags:
+    - YetiCTF{3x3_cu73_Cr3a73_7H1S_}
+
+version: "0.1"

@@ -1,0 +1,22 @@
+name: "circus"
+
+author: "@exe_cute3"
+
+category: web
+
+description: "[@exe_cut3](https://t.me/exe_cut3)<br><br>Throw and catch this like in a circus!"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+connection_info: http://yetictf.nstu.ru:8088
+
+flags:
+    - YetiCTF{g00d_g4m3}
+
+version: "0.1"

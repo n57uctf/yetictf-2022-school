@@ -1,0 +1,23 @@
+name: "MatrixCODE"
+
+author: "@RegularITCat"
+
+category: stegonagraphy
+
+description: "[@RegularITCat](https://t.me/RegularITCat)<br><br>Этот таск запилил 5-летний сын маминой подруги"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+files:
+    - HELL.gif
+
+flags:
+    - YetiCTF{ARE_YOU_SUPER_CRAZY}
+
+version: "0.1"

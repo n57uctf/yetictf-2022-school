@@ -1,0 +1,100 @@
+#welcome
+Welcome to text-based Roguelike PPC Task!
+To win, you need to kill 1000 enemy!
+(f/F) Find new enemy to fight
+(s/S) Examine yourself
+(b/B) Go to shop
+
+#nothing
+s
+Your stats:
+Level: 1
+HP: 10/10
+EXP: 1/10
+Money: 1
+Healing Potions: 1
+Damage: 1
+(f/F) Find new enemy to fight
+(s/S) Examine yourself
+(b/B) Go to shop
+
+#fight
+f
+You joined the fight!
+Enemy stats:
+HP: 2/2
+Damage: 1
+Your stats:
+Level: 1
+HP: 10/10
+EXP: 1/10
+Money: 1
+Healing Potions: 1
+Damage: 1
+(a/A) Attack!
+(h/H) Heal yourself!
+(r/R) Run away!
+
+#fight
+a
+You hit the enemy!
+The enemy hit you too!
+Enemy stats:
+HP: 1/2
+Damage: 1
+Your stats:
+Level: 1
+HP: 9/10
+EXP: 1/10
+Money: 1
+Healing Potions: 1
+Damage: 1
+(a/A) Attack!
+(h/H) Heal yourself!
+(r/R) Run away!
+
+#nothing
+a
+You hit the enemy!
+The enemy died from your hit!
+You received 1 EXP
+You received 1 Healing Potion
+You received 1 Coin
+What are you going to do next?
+(f/F) Find new enemy to fight
+(s/S) Examine yourself
+(b/B) Go to shop
+
+#shopping
+b
+You entered the shop.
+What do you want to buy?
+(h/H) Healing Potion - 10 coins
+(s/S) Better Sword (+1 damage) - 10 coins
+(a/A) Better Armor (+1 HP) - 10 coins
+(q/Q) Nothing. Go away
+You have 2 coins
+
+#nothing
+q
+You left the store.
+What are you going to do next?
+(f/F) Find new enemy to fight
+(s/S) Examine yourself
+(b/B) Go to shop
+
+
+
+You running away!
+But at the last moment before you run away, the enemy hits you!
+Your stats:
+Level: %v
+HP: %v/%v
+EXP: %v/%v
+Money: %v
+Healing Potions: %v
+Damage: %v
+What are you going to do next?
+(f/F) Find new enemy to fight
+(s/S) Examine yourself
+(b/B) Go to shop

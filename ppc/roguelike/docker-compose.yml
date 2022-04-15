@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+        roguelike:
+                build: ./app/
+                ports:
+                        - "12345:12345"
+                environment:
+                        - CTF_ADDR=:12345
+                        - CTF_FLAG=YetiCTF{H0P3Y0UD1DN7P14Y8YY0Ur531FFFFFFF}
+                        - CTF_ENEMIESTOKILL=1000

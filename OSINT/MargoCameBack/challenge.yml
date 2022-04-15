@@ -1,0 +1,30 @@
+name: "MargoCameBack"
+
+author: "@phalanger2412"
+
+category: OSINT
+
+description: "[@phalanger2412](https://t.me/phalanger2412)<br><br>Привет, это снова я, Марго. Помнишь меня? Нам нужно СРОЧНО встретиться в секретном месте, так чтобы никто о нем не узнал!!! Все что тебе нужно, чтобы найти наше тайное место встречи - margokukolevskaya. Удачи!<br>Формат флага: YetiCTF{название улицы_номер дома_город_индекс}, например YetiCTF{Шишкина_1_Москва_123456}"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+hints:
+    - {
+        content: "Попробуй Pinterest",
+        cost: 31337
+      }
+    - {
+        content: "Десятичные градусы это, например: 41.904791, 12.450276",
+        cost: 31337
+      }
+
+flags:
+    - "YetiCTF{Немировича-Данченко_136_Новосибирск_630087}"
+
+version: "0.1"

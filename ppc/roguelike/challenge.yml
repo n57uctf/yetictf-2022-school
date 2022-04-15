@@ -14,8 +14,7 @@ extra:
     decay: 10
     minimum: 100
 
-files:
-    - files/pmanager
+connection_info: nc yetictf.nstu.ru 12345
 
 flags:
     - YetiCTF{H0P3Y0UD1DN7P14Y8YY0Ur531FFFFFFF}

@@ -15,7 +15,7 @@ extra:
     minimum: 100
 
 files:
-    - HELL.gif
+    - files/HELL.gif
 
 flags:
     - YetiCTF{ARE_YOU_SUPER_CRAZY}

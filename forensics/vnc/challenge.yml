@@ -14,8 +14,8 @@ extra:
     decay: 10
     minimum: 100
 
-files:
-    - files/vnc.zip
+#files:
+#    - files/vnc.zip
 
 flags:
     - YetiCTF{44-031404.log_94.242.253.13}

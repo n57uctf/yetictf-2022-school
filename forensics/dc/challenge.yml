@@ -14,9 +14,9 @@ extra:
     decay: 10
     minimum: 100
 
-files:
-    - files/2022-04-13T155335_DC_20220413T155335.zip
-    - files/attack.pcapng
+#files:
+#    - files/2022-04-13T155335_DC_20220413T155335.zip
+#    - files/attack.pcapng
 
 flags:
     - "YetiCTF{2020-1472}"

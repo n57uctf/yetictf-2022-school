@@ -1,0 +1,26 @@
+name: "MargoCameBack"
+
+author: "@phalanger2412"
+
+category: OSINT
+
+description: "[@phalanger2412](https://t.me/phalanger2412)<br><br>На проспекте Строителей пробка, конечно, была жесть... Куда там позвонить можно, чтобы авто арендовать?<br>Формат флага: YetiCTF{8-XXX-XXX-XX-XX}"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+hints:
+    - {
+        content: "Google Maps в помощь",
+        cost: 31337
+      }
+
+flags:
+    - "YetiCTF{8-923-149-69-32}"
+
+version: "0.1"

@@ -1,0 +1,23 @@
+name: "roguelike"
+
+author: "@RegularITCat"
+
+category: ppc
+
+description: "[@RegularITCat](https://t.me/RegularITCat)<br><br>QQ! Игры надо делать, а не играть в них! nc IP_ADDRESS PORT"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+files:
+    - files/pmanager
+
+flags:
+    - YetiCTF{H0P3Y0UD1DN7P14Y8YY0Ur531FFFFFFF}
+
+version: "0.1"

@@ -14,6 +14,7 @@ extra:
     decay: 10
     minimum: 100
 
+connection_info: nc yetictf.nstu.ru 12346
 
 flags:
     - YetiCTF{HEy_nicelyDONE_congrats}

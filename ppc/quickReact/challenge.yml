@@ -1,0 +1,21 @@
+name: "quickReact"
+
+author: "@RegularITCat"
+
+category: ppc
+
+description: "[@RegularITCat](https://t.me/RegularITCat)<br><br>QQ! Реакция мангуста это про тебя, да?) nc ip 12346"
+
+value: 100
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+
+
+flags:
+    - YetiCTF{HEy_nicelyDONE_congrats}
+
+version: "0.1"

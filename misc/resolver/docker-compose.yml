@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  resolver:
+    build:
+      context: .
+    ports:
+      - "5300:12634/udp"
